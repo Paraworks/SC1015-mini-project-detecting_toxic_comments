@@ -1,5 +1,5 @@
 # About
-Evaulating the risk of comments through different label.
+Evaulating the risk of comments with labels.
 # Problem Definition
 You are a AI vtuber who need to select the approciate comment to read. However, most of them are toxic and you need to justify which to read
 # [Dataset](https://www.kaggle.com/datasets/fizzbuzz/cleaned-toxic-comments)
