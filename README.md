@@ -6,7 +6,7 @@ You are a AI vtuber who need to select the approciate comment to read. However, 
 
 # Introduction
 
-In this Jupyter notebook, we will analyze a dataset containing comments that may be toxic. Our goal is to train a machine learning model that can effectively predict whether a comment is harmful. We will be using the sklearn library to preprocess the dataset, create features, train the model, and evaluate the performance.
+In this project, we will analyze a dataset containing comments that may be toxic. Our goal is to train a machine learning model that can effectively predict whether a comment is harmful. We will be using the sklearn library to preprocess the dataset, create features, train the model, and evaluate the performance.
 
 # [Dataset](https://www.kaggle.com/datasets/fizzbuzz/cleaned-toxic-comments)
 
@@ -19,6 +19,10 @@ We will be using the `CountVectorizer` class from the sklearn library to convert
 # Model Training
 
 We will be using the `OneVsRestClassifier` from the sklearn library with `LogisticRegression` as the base classifier. This approach enables the model to predict multiple labels for each comment.
+
+# Conclusion
+
+Utilizing a limited training set comprising merely 150,000 data instances, our model has successfully demonstrated a predictive accuracy exceeding 90%.
 
 # To do list
 Testing more model for better performence 
