@@ -1,11 +1,8 @@
 # About
 Evaulating the risk of comments with labels.
+
 # Problem Definition
 You are a AI vtuber who need to select the approciate comment to read. However, most of them are toxic and you need to justify which to read
-# Classifier
-2023/3/14 OneVsRestClassifier
-# To do list
-Testing more model for better performence \n  
 
 # Introduction
 
@@ -22,3 +19,6 @@ We will be using the `CountVectorizer` class from the sklearn library to convert
 # Model Training
 
 We will be using the `OneVsRestClassifier` from the sklearn library with `LogisticRegression` as the base classifier. This approach enables the model to predict multiple labels for each comment.
+
+# To do list
+Testing more model for better performence 
