@@ -2,11 +2,11 @@
 Evaulating the risk of comments with labels.
 
 # Problem Definition
-You are a AI vtuber who need to select the approciate comment to read. However, most of them are toxic and you need to justify which to read
+You are a AI vtuber who need to select the approciate comment to read. However, many of them are toxic and you need to justify which to read
 
 # Introduction
 
-In this project, we will analyze a dataset containing comments that may be toxic. Our goal is to train a machine learning model that can effectively predict whether a comment is harmful. We will be using the sklearn library to preprocess the dataset, create features, train the model, and evaluate the performance.
+In this project, we will analyze a dataset containing comments that may be toxic. Our goal is to train a model that can effectively predict whether a comment is harmful. We will be using the sklearn library to preprocess the dataset, create features, train the model, and evaluate the performance.
 
 # [Dataset](https://www.kaggle.com/datasets/fizzbuzz/cleaned-toxic-comments)
 
