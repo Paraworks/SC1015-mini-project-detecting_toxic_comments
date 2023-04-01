@@ -1,12 +1,12 @@
 # About
-Evaulating the risk of comments with labels.
+Evaluate the predictive performance of different models on multi-label text comments.
 
 # Problem Definition
 You are a AI vtuber who need to select the approciate comment to read. However, many of them are toxic and you need to justify which to read
 
 # Introduction
 
-In this project, we will analyze a dataset containing comments that may be toxic. Our goal is to train a model that can effectively predict whether a comment is harmful. We will be using the sklearn library to preprocess the dataset, create features, train the model, and evaluate the performance.
+In this project, we will analyze a dataset containing comments that may be toxic. Our goal is to train a model that can effectively predict whether a comment is harmful. We will be using the sklearn library to preprocess the dataset, create features, train the model, and evaluate the performance. We will compare the performance of different models for both multi-label prediction and single-label prediction.
 
 # [Dataset](https://www.kaggle.com/datasets/fizzbuzz/cleaned-toxic-comments)
 
