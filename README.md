@@ -21,21 +21,26 @@ In [Models_comparison.ipynb](https://github.com/Paraworks/SC1015-mini-project-de
 ## [mini_proj.ipynb](https://github.com/Paraworks/SC1015-mini-project-detecting_toxic_comments/blob/main/mini_proj.ipynb)
 We will be using the `CountVectorizer` class from the sklearn library to convert the comments into a matrix of token counts. This representation will serve as the input features for our model. The labels will remain unchaned.
 
-# Model Training for EDA
+# Logistic Regression Model
 
 We will be using the `OneVsRestClassifier` from the sklearn library with `LogisticRegression` as the base classifier. This approach enables the model to predict multiple labels for each comment.
 
-# Deep learning model
 
-We will be using tenserflow in order to predict the same dataset in order to see which one is more effective.
+# Deep Learning Model
+
+We will be using tenserflow in order to predict the same dataset.
+
+# Shortcomings
+
+The datasets corresponding to certain labels are too small, resulting in less than ideal performance. The classification method of the dataset also makes it difficult to conduct specific evaluations.
 
 # Conclusion
 
-Utilizing a limited training set comprising merely 150,000 data instances, our models have successfully demonstrated a predictive accuracy exceeding 90%.
+Utilizing a limited training set comprising merely 160,000 data instances, our models have successfully demonstrated a predictive accuracy exceeding 90%. The deep learning model takes long time to fit, while Logistic Regression is much faster and easier to train. 
 
 # [Simple application](https://github.com/Paraworks/SC1015-mini-project-detecting_toxic_comments/blob/main/core.ipynb)
 
-This is a simple executable program that can be used directly to detect whether comments are toxic.By perdicting more than six labels. We can develop a weighted filtering mechanism to screen these harmful comments.
+This is a simple executable program that can be used directly to detect whether comments are toxic.By perdicting more than six labels, we can develop a weighted filtering mechanism to screen these harmful comments. 
 
 
 
