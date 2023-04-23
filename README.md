@@ -1,9 +1,9 @@
 # About
-You are a AI vtuber who need to select the approciate comment to read. However, many of them are toxic and you need to justify which to read
+Many social media platforms are filled with a large number of harmful comments, and we cannot rely solely on single label(whether they are harmful) to judge these comments. Since such a simple binary judgment would compromise the fairness of the review process, we will attempt multi-label prediction to pursue better performance.
 
 # Problem Definition
->>>Evaluate the predictive performance of different models on multi-label text comments.
->>>Create a suitable prediction program so that users can determine whether comments are toxic based on the model.
+I.What are the predictive performances of different models on multi-label text comments?
+II.Can we create a suitable prediction program so that users can determine whether comments are toxic based on the model?
 
 # Introduction
 
@@ -30,16 +30,15 @@ We will be using the `OneVsRestClassifier` from the sklearn library with `Logist
 
 We will be using tenserflow in order to predict the same dataset in order to see which one is more effective.
 
-# [Simple application](https://github.com/Paraworks/SC1015-mini-project-detecting_toxic_comments/blob/main/core.ipynb)
-
-This is a simple executable program that can be used directly to detect whether comments are toxic.
-
-We will 
-
-
 # Conclusion
 
 Utilizing a limited training set comprising merely 150,000 data instances, our models have successfully demonstrated a predictive accuracy exceeding 90%.
+
+# [Simple application](https://github.com/Paraworks/SC1015-mini-project-detecting_toxic_comments/blob/main/core.ipynb)
+
+This is a simple executable program that can be used directly to detect whether comments are toxic.By perdicting more than six labels. We can develop a weighted filtering mechanism to screen these harmful comments.
+
+
 
 # Members 
 Zhang Jiahua
