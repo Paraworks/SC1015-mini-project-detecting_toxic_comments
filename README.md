@@ -17,9 +17,8 @@ The dataset we are using is `train_preprocessed.csv`, which consists of comments
 
 In [Models_comparison.ipynb](https://github.com/Paraworks/SC1015-mini-project-detecting_toxic_comments/blob/main/Models_comparison.ipynb),we will verify the feasibility of multi-label prediction. We predicted for different labels and found that both multi-label prediction and single-label prediction have an accuracy of over 90%.
 
-## [mini_proj.ipynb](https://github.com/Paraworks/SC1015-mini-project-detecting_toxic_comments/blob/main/mini_proj.ipynb)
 # Preprocessing and Feature Extraction
-
+## [mini_proj.ipynb](https://github.com/Paraworks/SC1015-mini-project-detecting_toxic_comments/blob/main/mini_proj.ipynb)
 We will be using the `CountVectorizer` class from the sklearn library to convert the comments into a matrix of token counts. This representation will serve as the input features for our model. The labels will remain unchaned.
 
 # Model Training for EDA
