@@ -40,7 +40,7 @@ Utilizing a limited training set comprising merely 160,000 data instances, our m
 
 # [Simple application](https://github.com/Paraworks/SC1015-mini-project-detecting_toxic_comments/blob/main/core.ipynb)
 
-This is a simple executable program that can be used directly to detect whether comments are toxic.By perdicting more than six labels, we can develop a weighted filtering mechanism to screen these harmful comments. 
+This is a simple executable program that can be used directly to detect whether comments are toxic.By perdicting six labels, we can develop a weighted filtering mechanism to screen these harmful comments. 
 
 
 
