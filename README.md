@@ -2,8 +2,8 @@
 Many social media platforms are filled with a large number of harmful comments, and we cannot rely solely on single label(whether they are harmful) to judge these comments. Since such a simple binary judgment would compromise the fairness of the review process, we will attempt multi-label prediction to pursue better performance.
 
 # Problem Definition
-I.What are the predictive performances of different models on multi-label text comments?
-II.Can we create a suitable prediction program so that users can determine whether comments are toxic based on the model?
+## I.What are the predictive performances of different models on multi-label text comments?
+## II.Can we create a suitable prediction program so that users can determine whether comments are toxic based on the model?
 
 # Introduction
 
