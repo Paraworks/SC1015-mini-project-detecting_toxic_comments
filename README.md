@@ -3,7 +3,7 @@ Many social media platforms are filled with a large number of harmful comments, 
 
 # Problem Definition
 ## I.What are the predictive performances of different models on multi-label text comments?
-## II.Which model has a better performence so that we can develop a suitable filtering program based on it?
+## II.Which model exhibits superior performance, thereby warranting its use as the basis for developing an appropriate filtering program?
 
 # Introduction
 
